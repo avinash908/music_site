@@ -1,0 +1,104 @@
+body {
+  background-image: url('../../img/background.jpg');
+  color:#000;
+  padding-top: 54px;
+  color:white;
+  /* font-family: Helvetica Neue, Helvetica, Arial, sans-serif; */
+}
+.n_bar{
+    background-color: #000000e8!important;
+    border-bottom: 1px solid #1ba4a4;
+}
+.music-container {
+  background-color: #000000c2;
+  border-radius: 0px;
+  border-top: 1px solid #ffbb01cf;
+  border-bottom: 1px solid #ffbb01cf;
+  box-shadow: 0 0 2px 2px #000000f2;
+}
+.heading{
+  color: #ECECEC;
+}
+.content-container {
+  background-color: #000000c2;
+  border-radius: 0px;
+  box-shadow: 0 0 2px 2px #000000f2;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+ 
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 280px;
+  }
+  .slide-bottom {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 26%;
+    background-color: #000000d1;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+.swiper-pagination-bullet {
+  background: #1ba4a4 !important;
+}
+  .music-wallpaper{
+    width:100%;
+    height: 180px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #000000b8;
+    cursor: pointer;
+    /* text-align: center; */
+}
+.overlay:hover {
+    opacity: 1;
+}
+.icon {
+  color: white;
+  font-size: 4.6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-play-circle:hover {
+  color: #eee;
+}
+.music-image-bottom {
+  background-color: #000000d1;
+  font-size: 1.2em;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  color: #d2232a;
+  border-radius: 2px;
+}
